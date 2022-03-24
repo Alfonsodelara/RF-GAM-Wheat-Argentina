@@ -24,12 +24,6 @@ ggplot(difmbox, aes(x= Fertilizer, y=yield,fill=Fertilizer))+geom_boxplot(width=
 
 
 
-
-
-
-
-
-
 #EONR
 rf_eonr_results= readRDS("Results/rf_eonr_results.rds")
 gam_eonr_results= readRDS("Results/gam_eonr_results.rds")
